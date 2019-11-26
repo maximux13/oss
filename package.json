@@ -1,5 +1,5 @@
 {
-  "name": "oss",
+  "name": "oss-test",
   "version": "0.0.0-semantically-released",
   "description": "First OSS project setup test",
   "main": "dist/oss.cjs.js",
