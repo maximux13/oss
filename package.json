@@ -2,8 +2,8 @@
   "name": "oss-test2",
   "version": "0.0.0-semantically-released",
   "description": "First OSS project setup test",
-  "main": "dist/oss.cjs.js",
-  "module": "dist/oss.esm.js",
+  "main": "dist/oss-test2.cjs.js",
+  "module": "dist/oss-test2.esm.js",
   "engines": {
     "node": ">=10",
     "npm": ">=6",
