@@ -1,5 +1,9 @@
-import lib from '../'
+import math from '../';
 
-test('lib should be tested', () => {
-  expect(lib).toBeDefined()
-})
+test('sum', () => {
+  expect(math.sum(1, 2, 3)).toBe(6);
+});
+
+test('substract', () => {
+  expect(math.substract(3, 2)).toBe(1);
+});
