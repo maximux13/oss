@@ -1,0 +1,50 @@
+{
+  "name": "oss",
+  "version": "0.0.0-semantically-released",
+  "description": "First OSS project setup test",
+  "main": "dist/oss.cjs.js",
+  "module": "dist/oss.esm.js",
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6",
+    "yarn": ">=1"
+  },
+  "scripts": {
+    "build": "kcd-scripts build",
+    "lint": "kcd-scripts lint",
+    "test": "kcd-scripts test",
+    "test:update": "yarn test -- --updateSnapshot",
+    "validate": "kcd-scripts validate",
+    "setup": "yarn install && yarn run validate -s",
+    "commit": "yarn sgc",
+    "semantic-release": "semantic-release"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "Andres Alarcon <maximux13@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.4.4"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/git": "^7.0.18",
+    "kcd-scripts": "^1.4.0",
+    "semantic-git-commit-cli": "^3.5.0",
+    "semantic-release": "^15.13.31"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "kcd-scripts pre-commit"
+    }
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/kcd-scripts/eslint.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maximux13/oss.git"
+  }
+}

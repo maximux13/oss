@@ -1,0 +1,24 @@
+{
+  "projectName": "oss-test",
+  "projectOwner": "maximux13",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "maximux13",
+      "name": "Andres Felipe Alarcon",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7751536?v=4",
+      "profile": "https://github.com/maximux13",
+      "contributions": [
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
